@@ -75,7 +75,7 @@ jobs:
             echo "Round $ROUND of $PROJECT, base $BASE, head $HEAD"
             code=0
             node "$RUNNER_TEMP/gate.mjs" --base "$BASE" --project "$PROJECT" --round "$ROUND" --repo "$GITHUB_WORKSPACE" \
-              --out "$RUNNER_TEMP/gate-transcript.json" --container docker --verbose || code=$?
+              --image "$IMAGE" --out "$RUNNER_TEMP/gate-transcript.json" --container docker --verbose || code=$?
             case "$code" in 0) result=pass ;; 1) result=fail ;; esac
           fi
           # Words, not exit codes: in an expression an empty output equals '0'.

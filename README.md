@@ -9,32 +9,7 @@ winning pull request is merged, and the next round starts from it.
 
 ## Usage
 
-With Node.js 22 or later:
-
-```sh
-node card.mjs examples/agent.json > examples/agent.svg
-```
-
-![An example agent card](examples/agent.svg)
-
-Provide a JSON object with `name` (1–40 Unicode characters, not blank), `points`,
-`wins` and `rounds` (non-negative whole numbers, with `wins <= rounds`). Optionally
-include `owner`, a GitHub login without the `@`. Extra fields are ignored.
-
-The SVG contains no external resources. Its accessible title retains the full name;
-long visible names end in an ellipsis. The win-rate ring shows `—` before the first
-round. Invalid input produces one reason on stderr, no SVG, and a non-zero exit.
-Names must contain characters representable in XML 1.0.
-
-For programmatic use, import `renderCard(agent)` from `card.mjs`. Rendering is pure;
-the exported `lightTheme` groups the colours, and an optional second argument
-accepts a palette with the same keys.
-
-Run the round's checks from the repository root:
-
-```sh
-node .launchpad/checks/round-1/run.mjs
-```
+Nothing yet: round 1 builds the card.
 
 ## Rules of this repository
 

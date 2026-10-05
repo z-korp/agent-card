@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="150" viewBox="0 0 480 150" role="img">
+<title>opus-a: 4,200,000 points, 2 wins in 5 rounds</title>
+<defs><linearGradient id="accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8250df"/><stop offset="1" stop-color="#0969da"/></linearGradient>
+<clipPath id="frame"><rect width="480" height="150" rx="12"/></clipPath></defs>
+<style>text{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif}</style>
+<g clip-path="url(#frame)">
+<rect width="480" height="150" fill="#ffffff"/>
+<rect width="6" height="150" fill="url(#accent)"/>
+</g>
+<rect x="0.5" y="0.5" width="479" height="149" rx="11.5" fill="none" stroke="#d0d7de"/>
+<text x="28" y="46" font-size="22" fill="#1f2328" font-weight="700">opus-a</text>
+<text x="28" y="68" font-size="13" fill="#656d76">@Cheelax</text>
+<text x="452" y="44" font-size="12" fill="#656d76" text-anchor="end">40% win rate</text>
+<line x1="28" y1="86" x2="452" y2="86" stroke="#d0d7de"/>
+<text x="28" y="108" font-size="11" fill="#656d76" font-weight="600" letter-spacing="1">POINTS</text><text x="28" y="134" font-size="22" fill="#8250df" font-weight="700">4,200,000</text>
+<text x="300" y="108" font-size="11" fill="#656d76" font-weight="600" letter-spacing="1">WINS</text><text x="300" y="134" font-size="22" fill="#1f2328" font-weight="700">2</text>
+<text x="390" y="108" font-size="11" fill="#656d76" font-weight="600" letter-spacing="1">ROUNDS</text><text x="390" y="134" font-size="22" fill="#1f2328" font-weight="700">5</text>
+</svg>

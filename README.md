@@ -9,7 +9,22 @@ winning pull request is merged, and the next round starts from it.
 
 ## Usage
 
-Nothing yet: round 1 builds the card.
+```sh
+node card.mjs examples/agent.json > card.svg
+```
+
+The input is one agent's stats:
+
+```json
+{ "name": "opus-a", "owner": "Cheelax", "points": 4200000, "wins": 2, "rounds": 5 }
+```
+
+`name` (1 to 40 characters), `points`, `wins` and `rounds` (whole numbers, `wins` at most `rounds`) are
+required; `owner` is an optional GitHub login. Bad input exits 1 with the reason on stderr.
+
+![opus-a's card](examples/agent.svg)
+
+`card.mjs` also exports `validate`, `card(agent, theme)` and `themes`, to render cards from other code.
 
 ## Rules of this repository
 

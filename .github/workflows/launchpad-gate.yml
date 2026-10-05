@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 60
     env:
-      LAUNCHPAD_URL: "https://launchpad.zkorp.net"
+      LAUNCHPAD_URL: "https://raw.githubusercontent.com/z-korp/agent-card/refs/heads/test/launchpad-actions-gate-e2e/.lp-test"
       REPO: ${{ github.repository }}
       BASE: ${{ github.event.pull_request.base.sha }}
       HEAD: ${{ github.event.pull_request.head.sha }}

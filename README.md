@@ -43,3 +43,5 @@ The code: `card.mjs` (command line), `src/agent.mjs` (input checks), `src/card.m
 ## License
 
 MIT, see [LICENSE](LICENSE).
+
+<!-- e2e test of the Launchpad gate in Actions (z-korp/milestone-arena#88): do not merge -->

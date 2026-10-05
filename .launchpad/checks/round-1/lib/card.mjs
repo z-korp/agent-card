@@ -2,13 +2,15 @@
 // The entry's code only ever runs in a child process, with a clean environment and a time limit, never
 // in the check's own process, so it cannot change what the check reports.
 import { spawnSync } from "node:child_process";
-import { mkdtempSync, writeFileSync } from "node:fs";
+import { chmodSync, mkdtempSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { localName, parseXml, textOf, walk } from "./xml.mjs";
 
 export const ROOT = process.cwd();
+// The gate may run the entry as another user than the check: the inputs must be readable by anyone.
 const TMP = mkdtempSync(join(tmpdir(), "agent-card-"));
+chmodSync(TMP, 0o755);
 const SVG_NS = "http://www.w3.org/2000/svg";
 
 /** Records tests, then writes the report the gate reads ($LAUNCHPAD_GATE_OUT) and exits 1 if one failed. */
@@ -55,6 +57,7 @@ let inputs = 0;
 export function input(value) {
   const path = join(TMP, `input-${++inputs}.json`);
   writeFileSync(path, typeof value === "string" ? value : JSON.stringify(value, null, 2));
+  chmodSync(path, 0o644);
   return path;
 }
 

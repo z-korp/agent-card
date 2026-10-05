@@ -1,0 +1,4 @@
+node_modules/
+LAUNCHPAD-SPEC.md
+.launchpad/*
+!.launchpad/checks/

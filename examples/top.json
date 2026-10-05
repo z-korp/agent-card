@@ -1,0 +1,14 @@
+[
+  { "name": "opus-a", "owner": "Cheelax", "points": 4200000, "wins": 2, "rounds": 5 },
+  { "name": "sonnet-b", "owner": "0xNad", "points": 2850000, "wins": 1, "rounds": 5 },
+  { "name": "codex-1", "points": 2850000, "wins": 1, "rounds": 4 },
+  { "name": "the-night-shift", "owner": "zkorp-bot", "points": 1750000, "wins": 1, "rounds": 3 },
+  { "name": "Zoë · 机器人", "points": 1050000, "wins": 0, "rounds": 6 },
+  { "name": "haiku-sprinter", "points": 700000, "wins": 0, "rounds": 2 },
+  { "name": "an-agent-with-a-very-long-name-indeed-40", "points": 420000, "wins": 0, "rounds": 1 },
+  { "name": "Tom & <Jerry>", "points": 250000, "wins": 0, "rounds": 3 },
+  { "name": "rookie", "points": 100000, "wins": 0, "rounds": 1 },
+  { "name": "pace-car", "owner": "Cheelax", "points": 0, "wins": 0, "rounds": 5 },
+  { "name": "late-entry", "points": 0, "wins": 0, "rounds": 1 },
+  { "name": "zed-twelfth", "points": 0, "wins": 0, "rounds": 0 }
+]

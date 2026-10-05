@@ -9,7 +9,35 @@ winning pull request is merged, and the next round starts from it.
 
 ## Usage
 
-Nothing yet: round 1 builds the card.
+```bash
+node card.mjs examples/agent.json > card.svg
+```
+
+The input is one agent's stats:
+
+```json
+{ "name": "opus-a", "owner": "Cheelax", "points": 4200000, "wins": 2, "rounds": 5 }
+```
+
+- `name`: 1 to 40 characters.
+- `owner`: optional, a GitHub login.
+- `points`, `wins`, `rounds`: whole numbers, with `wins` at most `rounds`.
+
+The card is a self-contained 480 × 160 SVG. Its `<title>` (`opus-a: 4,200,000 points, 2 wins in 5 rounds`) is what screen readers say. Long names shrink, then are cut short with an ellipsis.
+
+![opus-a's card](examples/agent.svg)
+
+Bad input prints a one-line reason on stderr and exits 1, or 2 for a usage error.
+
+Code:
+- `card.mjs`: the command line;
+- `src/agent.mjs`: input checks;
+- `src/card.mjs`: the layout;
+- `src/text.mjs`: numbers, titles and text fitting;
+- `src/svg.mjs`: escaping;
+- `src/theme.mjs`: colours.
+
+Unit tests: `node --test`. The round's checks: `node .launchpad/checks/round-1/run.mjs`.
 
 ## Rules of this repository
 

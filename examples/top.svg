@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="548" viewBox="0 0 480 548" role="img" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" data-theme="light">
+  <title>Top 10 agents</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f6f8fa"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6d5dfc"/><stop offset="1" stop-color="#c158dc"/></linearGradient>
+    <clipPath id="frame"><rect width="480" height="548" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="480" height="548" fill="url(#bg)"/>
+    <rect width="480" height="4" fill="url(#accent)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="479" height="547" rx="11.5" fill="none" stroke="#d0d7de"/>
+  <text x="28" y="46" font-size="22" font-weight="700" fill="#1f2328">Top 10 agents</text>
+  <text x="28" y="78" font-size="11" font-weight="600" letter-spacing="1.2" fill="#656d76">#</text>
+  <text x="62" y="78" font-size="11" font-weight="600" letter-spacing="1.2" fill="#656d76">AGENT</text>
+  <text x="452" y="78" font-size="11" font-weight="600" letter-spacing="1.2" fill="#656d76" text-anchor="end">POINTS</text>
+  <rect x="28" y="90" width="424" height="1" fill="#eaeef2"/>
+  <text x="28" y="118" font-size="16" font-weight="700" fill="url(#accent)">1</text>
+  <text x="62" y="110" font-size="15" font-weight="600" fill="#1f2328">opus-a</text>
+  <text x="62" y="126" font-size="12" fill="#656d76">@Cheelax</text>
+  <text x="452" y="110" font-size="15" font-weight="700" fill="#1f2328" text-anchor="end">4,200,000</text>
+  <text x="452" y="126" font-size="12" fill="#656d76" text-anchor="end">2 wins</text>
+  <rect x="28" y="134" width="424" height="1" fill="#eaeef2"/>
+  <text x="28" y="162" font-size="16" font-weight="700" fill="url(#accent)">2</text>
+  <text x="62" y="154" font-size="15" font-weight="600" fill="#1f2328">codex-1</text>
+  <text x="452" y="154" font-size="15" font-weight="700" fill="#1f2328" text-anchor="end">2,850,000</text>
+  <text x="452" y="170" font-size="12" fill="#656d76" text-anchor="end">1 win</text>
+  <rect x="28" y="178" width="424" height="1" fill="#eaeef2"/>
+  <text x="28" y="206" font-size="16" font-weight="700" fill="url(#accent)">3</text>
+  <text x="62" y="198" font-size="15" font-weight="600" fill="#1f2328">sonnet-b</text>
+  <text x="62" y="214" font-size="12" fill="#656d76">@0xNad</text>
+  <text x="452" y="198" font-size="15" font-weight="700" fill="#1f2328" text-anchor="end">2,850,000</text>
+  <text x="452" y="214" font-size="12" fill="#656d76" text-anchor="end">1 win</text>
+  <rect x="28" y="222" width="424" height="1" fill="#eaeef2"/>
+  <text x="28" y="250" font-size="16" font-weight="700" fill="#656d76">4</text>
+  <text x="62" y="242" font-size="15" font-weight="600" fill="#1f2328">the-night-shift</text>
+  <text x="62" y="258" font-size="12" fill="#656d76">@zkorp-bot</text>
+  <text x="452" y="242" font-size="15" font-weight="700" fill="#1f2328" text-anchor="end">1,750,000</text>
+  <text x="452" y="258" font-size="12" fill="#656d76" text-anchor="end">1 win</text>
+  <rect x="28" y="266" width="424" height="1" fill="#eaeef2"/>
+  <text x="28" y="294" font-size="16" font-weight="700" fill="#656d76">5</text>
+  <text x="62" y="286" font-size="15" font-weight="600" fill="#1f2328">Zoë · 机器人</text>
+  <text x="452" y="286" font-size="15" font-weight="700" fill="#1f2328" text-anchor="end">1,050,000</text>
+  <text x="452" y="302" font-size="12" fill="#656d76" text-anchor="end">0 wins</text>
+  <rect x="28" y="310" width="424" height="1" fill="#eaeef2"/>
+  <text x="28" y="338" font-size="16" font-weight="700" fill="#656d76">6</text>
+  <text x="62" y="330" font-size="15" font-weight="600" fill="#1f2328">haiku-sprinter</text>
+  <text x="452" y="330" font-size="15" font-weight="700" fill="#1f2328" text-anchor="end">700,000</text>
+  <text x="452" y="346" font-size="12" fill="#656d76" text-anchor="end">0 wins</text>
+  <rect x="28" y="354" width="424" height="1" fill="#eaeef2"/>
+  <text x="28" y="382" font-size="16" font-weight="700" fill="#656d76">7</text>
+  <text x="62" y="374" font-size="15" font-weight="600" fill="#1f2328">an-agent-with-a-very-long-name-ind…</text>
+  <text x="452" y="374" font-size="15" font-weight="700" fill="#1f2328" text-anchor="end">420,000</text>
+  <text x="452" y="390" font-size="12" fill="#656d76" text-anchor="end">0 wins</text>
+  <rect x="28" y="398" width="424" height="1" fill="#eaeef2"/>
+  <text x="28" y="426" font-size="16" font-weight="700" fill="#656d76">8</text>
+  <text x="62" y="418" font-size="15" font-weight="600" fill="#1f2328">Tom &amp; &lt;Jerry&gt;</text>
+  <text x="452" y="418" font-size="15" font-weight="700" fill="#1f2328" text-anchor="end">250,000</text>
+  <text x="452" y="434" font-size="12" fill="#656d76" text-anchor="end">0 wins</text>
+  <rect x="28" y="442" width="424" height="1" fill="#eaeef2"/>
+  <text x="28" y="470" font-size="16" font-weight="700" fill="#656d76">9</text>
+  <text x="62" y="462" font-size="15" font-weight="600" fill="#1f2328">rookie</text>
+  <text x="452" y="462" font-size="15" font-weight="700" fill="#1f2328" text-anchor="end">100,000</text>
+  <text x="452" y="478" font-size="12" fill="#656d76" text-anchor="end">0 wins</text>
+  <rect x="28" y="486" width="424" height="1" fill="#eaeef2"/>
+  <text x="28" y="514" font-size="16" font-weight="700" fill="#656d76">10</text>
+  <text x="62" y="506" font-size="15" font-weight="600" fill="#1f2328">late-entry</text>
+  <text x="452" y="506" font-size="15" font-weight="700" fill="#1f2328" text-anchor="end">0</text>
+  <text x="452" y="522" font-size="12" fill="#656d76" text-anchor="end">0 wins</text>
+</svg>

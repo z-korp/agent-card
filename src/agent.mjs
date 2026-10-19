@@ -26,4 +26,18 @@ export function parseAgent(a) {
   return { name, owner: owner ?? undefined, points, wins, rounds };
 }
 
+/** Checks a leaderboard's input: a JSON array of agents, each one as parseAgent wants it. */
+export function parseAgents(list) {
+  if (!Array.isArray(list)) throw new Error(`expected a JSON array of agents, got ${kind(list)}`);
+  return list.map((a, i) => {
+    try {
+      return parseAgent(a);
+    } catch (e) {
+      const name = typeof a?.name === "string" && a.name.trim() && a.name.length <= 40 ? ` (${JSON.stringify(a.name)})` : "";
+      throw new Error(`agent ${i + 1} of ${list.length}${name}: ${e.message}`);
+    }
+  });
+}
+
 const describe = (v) => (v === undefined ? "nothing" : JSON.stringify(v));
+const kind = (v) => (v === null ? "null" : typeof v === "object" ? "an object" : `a ${typeof v}`);
